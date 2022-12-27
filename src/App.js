@@ -84,7 +84,7 @@ function App() {
    }
 
    const findMovie = async(movie_id) => {
-      const response = await fetch('http://www.omdbapi.com/?i='+movie_id+'&apikey=64af7e26')
+      const response = await fetch('https://www.omdbapi.com/?i='+movie_id+'&apikey=64af7e26')
       return  await response.json()
    } 
 
